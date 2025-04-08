@@ -140,6 +140,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -355,6 +356,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -570,6 +572,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -785,6 +788,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -1000,6 +1004,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -1215,6 +1220,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -1430,6 +1436,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
@@ -1645,6 +1652,7 @@ pd.set_option('display.float_format', '{:.2f}'.format)
 st.dataframe(inertia_df)
 
 # Plot Elbow Method untuk Inertia
+plt.figure(figsize=(8, 6))
 plt.plot(k_range, inertia_values, marker='o')
 plt.title('Elbow Method - Inertia vs Number of Clusters')
 plt.xlabel('Number of Clusters')
